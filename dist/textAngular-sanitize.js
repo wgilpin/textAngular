@@ -224,7 +224,7 @@ var validElements = angular.extend({},
 var uriAttrs = makeMap("background,cite,href,longdesc,src,usemap,xlink:href");
 
 var htmlAttrs = makeMap('abbr,align,alt,axis,bgcolor,border,cellpadding,cellspacing,class,clear,'+
-    'color,cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace,'+
+    'color,cols,colspan,compact,coords,data=id,dir,face,headers,height,hreflang,hspace,'+
     'id,ismap,lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules,'+
     'scope,scrolling,shape,size,span,start,summary,target,title,type,'+
     'valign,value,vspace,width');
